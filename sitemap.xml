@@ -3,36 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://pankajkmishra.github.io/posts/happy-new-year/</loc>
+    <loc>/</loc>
     <lastmod>2018-01-01T18:30:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pankajkmishra.github.io/</loc>
+    <loc>/posts/happy-new-year/</loc>
     <lastmod>2018-01-01T18:30:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pankajkmishra.github.io/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2018-01-01T18:30:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pankajkmishra.github.io/posts/my-first-post/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2017-12-30T18:30:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pankajkmishra.github.io/posts/my-example-post/</loc>
+    <loc>/posts/my-example-post/</loc>
     <lastmod>2017-12-29T18:30:21-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://pankajkmishra.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>http://pankajkmishra.github.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
