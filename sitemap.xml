@@ -3,36 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://pankajkmishra.github.io/</loc>
-    <lastmod>2018-01-01T18:30:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pankajkmishra.github.io/posts/happy-new-year/</loc>
-    <lastmod>2018-01-01T18:30:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pankajkmishra.github.io/posts/</loc>
-    <lastmod>2018-01-01T18:30:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pankajkmishra.github.io/posts/my-first-post/</loc>
-    <lastmod>2017-12-30T18:30:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://pankajkmishra.github.io/posts/my-example-post/</loc>
-    <lastmod>2017-12-29T18:30:21-05:00</lastmod>
+    <loc>http://pankajkmishra.github.io/note/another-note/</loc>
+    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://pankajkmishra.github.io/categories/</loc>
+    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/categories/example/</loc>
+    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/</loc>
+    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/note/</loc>
+    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://pankajkmishra.github.io/tags/</loc>
+    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/tags/tutorial/</loc>
+    <lastmod>2017-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/note/a-quick-note/</loc>
+    <lastmod>2017-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/post/2016-02-14-hello-markdown/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/tags/blogdown/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/categories/hugo/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/tags/markdown/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/tags/mathjax/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/tags/pandoc/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/post/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/tags/rstudio/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/post/2015-07-23-lorem-ipsum/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/about/</loc>
   </url>
   
 </urlset>
