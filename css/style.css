@@ -15,7 +15,7 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
+.menu, .article-meta, footer { text-align: right; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
