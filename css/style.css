@@ -12,7 +12,7 @@ body {
 .article-meta, .menu a {
   text-decoration: none;
   background: #eee;
-  padding: 5px;
+  padding: 1px;
   border-radius: 5px;
 }
 .menu, .article-meta, footer { text-align: center; }
