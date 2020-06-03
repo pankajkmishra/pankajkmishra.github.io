@@ -2,7 +2,8 @@ body {
   max-width: 1000px;
   margin: auto;
   padding: 1em;
-  line-height: 1.5em;
+  line-height: 1.2em;
+  color: #17182c;
 }
   
   
@@ -13,14 +14,14 @@ body {
   text-decoration: none;
   background: #eee;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .menu, .article-meta, footer { text-align: right; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
-  border-style: dashed;
-  color: #ddd;
+  border-style: solid;
+  color: #d9ddde;
 }
 
 /* code */
