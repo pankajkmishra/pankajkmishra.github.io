@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>http://pankajkmishra.github.io/post/</loc>
+    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://pankajkmishra.github.io/categories/hugo/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url>
@@ -73,11 +78,6 @@
   </url>
   
   <url>
-    <loc>http://pankajkmishra.github.io/post/</loc>
-    <lastmod>2016-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://pankajkmishra.github.io/tags/rstudio/</loc>
     <lastmod>2016-02-14T00:00:00+00:00</lastmod>
   </url>
@@ -88,11 +88,19 @@
   </url>
   
   <url>
+    <loc>http://pankajkmishra.github.io/blog/</loc>
+  </url>
+  
+  <url>
     <loc>http://pankajkmishra.github.io/about/</loc>
   </url>
   
   <url>
     <loc>http://pankajkmishra.github.io/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>http://pankajkmishra.github.io/research/</loc>
   </url>
   
 </urlset>

@@ -52,6 +52,15 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
     </item>
     
     <item>
+      <title>Blog</title>
+      <link>http://pankajkmishra.github.io/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pankajkmishra.github.io/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Opps!</title>
       <link>http://pankajkmishra.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -69,6 +78,15 @@ Quisque mattis volutpat lorem vitae feugiat.</description>
       <guid>http://pankajkmishra.github.io/publications/</guid>
       <description>Pankaj K Mishra, Adrien Arnulf, Mrinal K Sen, B. Denel, Y. Sun, and Paul Williamson( 2020), Probabilistic joint-inversion of marine CSEM and seismic traveltime data using VFSA and generalized fuzzy clustering, SEG Annual Meeting, TPEA [submitted]
   Reetam Biswas, Mrinal K Sen, Adrien Arnulf, Zheyu Zhao, Debanjan Datta, Pankaj K Mishra, and Piyoosh Jaysaval (2020), Two-step velocity inversion using trans-dimensional tomography and elastic FWI , SEG Annual Meeting, TPEA [submitted]</description>
+    </item>
+    
+    <item>
+      <title>Research Gallery</title>
+      <link>http://pankajkmishra.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pankajkmishra.github.io/research/</guid>
+      <description>Probabilistic joint-inversion The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The webpage is under-construction The wepage is under construction</description>
     </item>
     
   </channel>
