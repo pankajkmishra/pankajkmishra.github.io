@@ -5,16 +5,14 @@ body {
   line-height: 1.2em;
   color: #29292a;
 }
-  
-  
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
+  background: #eee ;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .menu, .article-meta, footer { text-align: right; }
 .title { font-size: 1.1em; }
