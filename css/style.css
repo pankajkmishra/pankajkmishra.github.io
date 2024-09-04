@@ -58,7 +58,7 @@ body {
  .menu a {
   text-decoration: none;
   background: #eee;
-  padding: 1px;
+  padding: 2px;
   border-radius: 5px;
 }
 
@@ -67,7 +67,10 @@ body {
 .article-meta { text-align: center; }
 
 
-
+/* Style for visited links */
+a:visited {
+  color: rgb(50, 5, 213); 
+}
 
 
 /* footer */ 
