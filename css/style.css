@@ -30,12 +30,16 @@ body {
 .menu li::after {
   content: " | "; /* Em dash */
   color: #333; /* You can adjust the em dash color */
-  margin-left: 10px; /* Space between the item and the em dash */
-  margin-right: 10px; /* Space between the item and the em dash */
+  margin-left: 5px; /* Space between the item and the em dash */
+  margin-right: 5px; /* Space between the item and the em dash */
 }
 
 .menu li:last-child::after {
   content: ""; /* Remove the em dash after the last item */
+}
+
+.menu-item {
+  line-height: 1.5; /* Adjust line-height to increase vertical space */
 }
 
 .article-meta, .menu a {
