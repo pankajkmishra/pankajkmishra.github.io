@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: "Roboto", Optima, Candara, Calibri, Arial, sans-serif;
+    font-family: "Monaco", Roboto, Optima, Candara, Calibri, Arial, sans-serif;
+    font-size: 90%;
 }
 
 code {
-    font-family: 'Roboto', Lucida Console, Monaco, monospace;
+    font-family:  Lucida, 'Console', Monaco, monospace;
     font-size: 85%;
 }
