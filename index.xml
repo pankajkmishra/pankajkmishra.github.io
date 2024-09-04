@@ -6,8 +6,15 @@
     <description>Recent content in Home on Pankaj K Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pankajkmishra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>https://pankajkmishra.github.io/post/2024/09/04/lorem-ipsum/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/post/2024/09/04/lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&#xA;Quisque mattis volutpat lorem vitae feugiat.</description>
+    </item>
     <item>
       <title>Notes One</title>
       <link>https://pankajkmishra.github.io/note/2024/06/14/another-note/</link>
@@ -23,25 +30,18 @@
       <description>Only the date and title in the metadata in this markdown are displayed</description>
     </item>
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>https://pankajkmishra.github.io/post/2016/02/14/a-plain-markdown-post/</link>
+      <title>An example markdown post</title>
+      <link>https://pankajkmishra.github.io/post/2016/02/14/an-example-markdown-post/</link>
       <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/post/2016/02/14/a-plain-markdown-post/</guid>
+      <guid>https://pankajkmishra.github.io/post/2016/02/14/an-example-markdown-post/</guid>
       <description>This sample post is mainly for blogdown users. If you do not use blogdown, you can skip the first section.&#xA;1. Markdown or R Markdown This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:&#xA;You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Goldmark by default, and an R Markdown document is compiled by rmarkdown and Pandoc.</description>
-    </item>
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>https://pankajkmishra.github.io/post/2015/07/23/lorem-ipsum/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/post/2015/07/23/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&#xA;Quisque mattis volutpat lorem vitae feugiat.</description>
     </item>
     <item>
       <title>Publications</title>
       <link>https://pankajkmishra.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/publications/</guid>
-      <description></description>
+      <description>For an up-to-date list, visit: My Google Scholar&#xA;📄 Enhancing RBF-FD efficiency for highly non-uniform nodes distributions via adaptivity&#xA;S Li, Leevan Ling, Xin Liu, Pankaj K Mishra, Mrinal K Sen, and J Zhang.&#xA;Numerical Mathematics: Theory, Methods and Applications (Accepted 2024) - 2024&#xA;📄 RBF-FD analysis of 2D time-domain acoustic wave propagation in heterogeneous media&#xA;Jure M B, Pankaj K Mishra, Jure Slak, and Gregor Kosec&#xA;Computer &amp;amp; Geosciences, 153, 104796 - 2021</description>
     </item>
     <item>
       <title>Research</title>
