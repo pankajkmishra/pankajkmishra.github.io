@@ -27,11 +27,13 @@ body {
 
 
 
-
 .menu a:hover {
   background-color: hsl(78, 89%, 61%); /* Adjust this to your preferred hover background color */
   color: #333; /* Optionally change text color on hover */
 }
+
+
+
 
 /* header and footer areas */
 .menu { padding: 0; }
@@ -53,19 +55,23 @@ body {
   line-height: 2.5; /* Adjust line-height to increase vertical space */
 }
 
-.article-meta, .menu a {
+ .menu a {
   text-decoration: none;
   background: #eee;
-  padding: 5px;
+  padding: 1px;
   border-radius: 5px;
 }
 
-.menu, .article-meta, footer { text-align: center; }
+
+.menu { text-align: center; }
+.article-meta { text-align: center; }
 
 
-.title { font-size: 1.1em; }
 
 
+
+/* footer */ 
+footer { text-align: center; }
 footer a { text-decoration: none; }
 
 
@@ -83,6 +89,7 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
+
 code { background: #f9f9f9; }
 pre code { background: none; }
 
