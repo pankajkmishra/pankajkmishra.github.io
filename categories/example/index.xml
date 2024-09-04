@@ -6,14 +6,21 @@
     <description>Recent content in Example on Pankaj K Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pankajkmishra.github.io/categories/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Another Note on A blogdown Tutorial</title>
-      <link>https://pankajkmishra.github.io/note/2017/06/14/another-note/</link>
-      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/note/2017/06/14/another-note/</guid>
-      <description>I just discovered an awesome tutorial on blogdown written by Alison. I have to admit this is the best blogdown tutorial I have seen so far.</description>
+      <title>Notes One</title>
+      <link>https://pankajkmishra.github.io/note/2024/06/14/another-note/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/note/2024/06/14/another-note/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes Two</title>
+      <link>https://pankajkmishra.github.io/note/2024/06/14/another/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/note/2024/06/14/another/</guid>
+      <description>Only the date and title in the metadata in this markdown are displayed</description>
     </item>
     <item>
       <title>A Plain Markdown Post</title>
