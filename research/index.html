@@ -38,7 +38,8 @@
 <main>
 <h1 id="project-d-rex">Project D-Rex</h1>
 <h1 id="multiverse">Multiverse</h1>
-<p>multiphysics inversion</p>
+<p>multiphysics inversion $E=mc^2$</p>
+<p>$$ E = mc^2 $$</p>
 
 </main>
 
@@ -49,8 +50,17 @@
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
 
 
-<script src="//yihui.org/js/math-code.js"></script>
-<script async src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true}, 
+          {left: "$", right: "$", display: false}   
+        ]
+      });
+    });
+    </script>
+
 
   
   <hr/>
