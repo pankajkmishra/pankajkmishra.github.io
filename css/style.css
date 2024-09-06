@@ -1,115 +1,99 @@
-
-
 .site-title {
-  font-size: 2.8em; /* Adjust the size */
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 1px;
- 
+  font-size: 2.8em;                      /* Adjust the size of the site title */
+  font-weight: bold;                     /* Make the site title bold */
+  text-align: center;                    /* Center the site title horizontally */
+  margin-bottom: 1px;                    /* Small margin below the title */
 }
 
 html {
-  background-color: #f0f0f0; /* Background color for the empty space outside the content */
-  min-height: 100vh; /* Ensures that the background color fills the full height of the page */
+  background-color: #f0f0f0;             /* Background color for the area outside the content */
+  min-height: 100vh;                     /* Ensure background color covers the full height of the page */
 }
 
 /* Style for the main content area */
 body {
-  max-width: 800px; 
-  margin: 10px auto; 
-  background-color: white; 
-  padding: 1em 2em 2em 2em;
-  line-height: 1.5;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); 
-  border-radius: 10px; 
-  min-height: 90vh;
+  max-width: 800px;                      /* Limit the width of the content area */
+  margin: 10px auto;                     /* Center the body with top/bottom margins */
+  background-color: white;               /* Set the background color for the content */
+  padding: 1em 2em 2em 2em;              /* Add padding inside the content area */
+  line-height: 1.5;                      /* Set the line height for readability */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);  /* Add a soft shadow around the content area */
+  border-radius: 10px;                   /* Round the corners of the content area */
+  min-height: 90vh;                      /* Ensure the content takes at least 90% of the viewport height */
 }
-
-
 
 .menu a:hover {
-  background-color: hsl(78, 89%, 61%); /* Adjust this to your preferred hover background color */
-  color: #333; /* Optionally change text color on hover */
+  background-color: hsl(78, 89%, 61%);   /* Change the background color of menu links on hover */
+  color: #333;                           /* Change the text color on hover */
 }
 
+/* Header and footer menu styling */
+.menu { padding: 0; }                    /* Remove default padding for the menu */
 
-
-
-/* header and footer areas */
-.menu { padding: 0; }
-
-.menu li { display: inline-block}
+.menu li { display: inline-block; }       /* Display menu items inline horizontally */
 
 .menu li::after {
-  content: " | "; /* Em dash */
-  color: #333; /* You can adjust the em dash color */
-  margin-left: 5px; /* Space between the item and the em dash */
-  margin-right: 5px; /* Space between the item and the em dash */
+  content: " | ";                        /* Add a pipe separator between menu items */
+  color: #333;                           /* Set the color of the pipe separator */
+  margin-left: 5px;                      /* Add space between the menu item and the separator */
+  margin-right: 5px;                     /* Add space between the separator and the next item */
 }
 
 .menu li:last-child::after {
-  content: ""; /* Remove the em dash after the last item */
+  content: "";                           /* Remove the separator after the last menu item */
 }
 
 .menu-item {
-  line-height: 2.5; /* Adjust line-height to increase vertical space */
+  line-height: 2.5;                      /* Increase vertical space between menu items */
 }
 
- .menu a {
-  text-decoration: none;
-  background: #eee;
-  padding: 2px;
-  border-radius: 5px;
+.menu a {
+  text-decoration: none;                 /* Remove underline from menu links */
+  background: #eee;                      /* Set a light background color for menu items */
+  padding: 2px;                          /* Add padding inside each menu item */
+  border-radius: 5px;                    /* Slightly round the corners of menu items */
 }
 
-
-.menu { text-align: center; }
-.article-meta { text-align: center; }
-
-
-/* Style for visited links */
-a:visited {
-  color: rgb(50, 5, 213); 
-}
+.menu { text-align: center; }            /* Center-align the entire menu */
+.article-meta { text-align: center; }    /* Center-align the metadata (e.g., author, date) */
 
 
-/* footer */ 
-footer { text-align: center; }
-footer a { text-decoration: none; }
 
+/* Footer styling */
+footer { text-align: center; }           /* Center-align the footer content */
+footer a { text-decoration: none; }      /* Remove underline from footer links */
 
 hr {
-  border-style: dashed;
-  color: #ddd;
+  border-style: dashed;                  /* Set the horizontal rule (hr) to a dashed line */
+  color: #ddd;                           /* Light gray color for the horizontal rule */
 }
 
-
-
-/* code */
+/* Code block styling */
 pre {
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
-  padding: 1em;
-  overflow-x: auto;
+  border: 1px solid #ddd;                /* Add a light border around code blocks */
+  box-shadow: 5px 5px 5px #eee;          /* Add a soft shadow around code blocks */
+  padding: 1em;                          /* Add padding inside code blocks */
+  overflow-x: auto;                      /* Allow horizontal scrolling for wide code blocks */
 }
 
-code { background: #f9f9f9; }
-pre code { background: none; }
+code { background: #f9f9f9; }            /* Set a light background for inline code */
+pre code { background: none; }           /* Remove background for code inside preformatted text */
 
-/* misc elements */
-img, iframe, video { max-width: 100%; }
-main { hyphens: auto; }
+/* Miscellaneous elements */
+img, iframe, video { max-width: 100%; }  /* Ensure images, iframes, and videos fit within their container */
+main { hyphens: auto; }                  /* Enable automatic hyphenation of text in the main content */
 blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
-  padding: 3px 1em 3px;
+  background: #f9f9f9;                   /* Light background for blockquotes */
+  border-left: 5px solid #ccc;           /* Add a solid left border for blockquotes */
+  padding: 3px 1em 3px;                  /* Add padding inside blockquotes */
 }
 
 table {
-  margin: auto;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
+  margin: auto;                          /* Center-align tables */
+  border-top: 1px solid #666;            /* Add a dark top border to the table */
+  border-bottom: 1px solid #666;         /* Add a dark bottom border to the table */
 }
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+table thead th { border-bottom: 1px solid #ddd; }  /* Add a light bottom border to table headers */
+th, td { padding: 5px; }                 /* Add padding inside table cells */
+thead, tfoot, tr:nth-child(even) { background: #eee; }  /* Set a light background for table headers, footers, and even rows */

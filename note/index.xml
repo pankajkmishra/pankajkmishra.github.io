@@ -13,14 +13,14 @@
       <link>https://pankajkmishra.github.io/note/2024/06/14/another-note/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/note/2024/06/14/another-note/</guid>
-      <description></description>
+      <description>Title of this note </description>
     </item>
     <item>
       <title>Notes Two</title>
       <link>https://pankajkmishra.github.io/note/2024/06/14/another/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/note/2024/06/14/another/</guid>
-      <description>Only the date and title in the metadata in this markdown are displayed</description>
+      <description>Title of this note Testing inline equation $E=mc^2$&#xA;Display equation $$ E = mc^2 $$</description>
     </item>
   </channel>
 </rss>

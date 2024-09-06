@@ -6,13 +6,41 @@
     <description>Recent content in Tags on Pankaj K Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pankajkmishra.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blogdown</title>
+      <link>https://pankajkmishra.github.io/tags/blogdown/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/tags/blogdown/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Markdown</title>
       <link>https://pankajkmishra.github.io/tags/markdown/</link>
-      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MathJax</title>
+      <link>https://pankajkmishra.github.io/tags/mathjax/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pandoc</title>
+      <link>https://pankajkmishra.github.io/tags/pandoc/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/tags/pandoc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RStudio</title>
+      <link>https://pankajkmishra.github.io/tags/rstudio/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/tags/rstudio/</guid>
       <description></description>
     </item>
     <item>
@@ -20,34 +48,6 @@
       <link>https://pankajkmishra.github.io/tags/tutorial/</link>
       <pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>blogdown</title>
-      <link>https://pankajkmishra.github.io/tags/blogdown/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/tags/blogdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MathJax</title>
-      <link>https://pankajkmishra.github.io/tags/mathjax/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/tags/mathjax/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pandoc</title>
-      <link>https://pankajkmishra.github.io/tags/pandoc/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/tags/pandoc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RStudio</title>
-      <link>https://pankajkmishra.github.io/tags/rstudio/</link>
-      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/tags/rstudio/</guid>
       <description></description>
     </item>
   </channel>
