@@ -50,7 +50,7 @@ body {
 
 .menu a {
   text-decoration: none;                 /* Remove underline from menu links */
-  /*background: #eee; */                      /* Set a light background color for menu items */
+  background: #eee;                       /* Set a light background color for menu items */
   padding: 4px;                          /* Add padding inside each menu item */
   border-radius: 5px;                    /* Slightly round the corners of menu items */
 }
