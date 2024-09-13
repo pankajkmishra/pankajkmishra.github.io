@@ -1,3 +1,4 @@
+
 .site-title {
   font-size: 2.8em;                      /* Adjust the size of the site title */
   font-weight: bold;                     /* Make the site title bold */
@@ -49,8 +50,8 @@ body {
 
 .menu a {
   text-decoration: none;                 /* Remove underline from menu links */
-  background: #eee;                      /* Set a light background color for menu items */
-  padding: 2px;                          /* Add padding inside each menu item */
+  /*background: #eee; */                      /* Set a light background color for menu items */
+  padding: 4px;                          /* Add padding inside each menu item */
   border-radius: 5px;                    /* Slightly round the corners of menu items */
 }
 
@@ -97,3 +98,25 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }  /* Add a light bottom border to table headers */
 th, td { padding: 5px; }                 /* Add padding inside table cells */
 thead, tfoot, tr:nth-child(even) { background: #eee; }  /* Set a light background for table headers, footers, and even rows */
+
+
+
+
+
+/* LINK BEHAVIOR */ 
+
+a {
+  color: #1505f1; /* Default link color (DodgerBlue) */
+  text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: #1505f1; /* Keep the same color on hover */
+}
+
+.menu a:hover {
+  text-decoration: none; /* Underline on hover */
+  color: #1505f1; /* Keep the same color on hover */
+}
+
