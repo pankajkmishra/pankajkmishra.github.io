@@ -14,6 +14,7 @@ html {
 
 
 
+
 /* Style for the main content area */
 body {
   max-width: 800px;                      /* Limit the width of the content area */
@@ -30,6 +31,7 @@ body {
   background-color: hsl(78, 89%, 61%);   /* Change the background color of menu links on hover */
   color: #333;                           /* Change the text color on hover */
 }
+
 
 /* Header and footer menu styling */
 .menu { padding: 0; }                    /* Remove default padding for the menu */
