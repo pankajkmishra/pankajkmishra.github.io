@@ -113,16 +113,12 @@ body a:visited {
     text-align: left;
   }
 
-  /* Make site title smaller on mobile */
-  .site-title {
-    font-size: 1.8em; /* Reduce font size for mobile */
-  }
 
   .menu-wrapper {
     display: none;
     position: absolute;
-    top: 160px; /* Adjusted to account for new position below title */
-    left: 0px;
+    top: 10px; /* Adjusted to account for new position below title */
+    left: 10px;
     right: 0px;
     background-color: rgba(255, 255, 255, 0.859);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
