@@ -1,125 +1,262 @@
-
+/*-----------------------
+  Site Title Styling
+------------------------*/
 .site-title {
-  font-size: 2.8em;                      /* Adjust the size of the site title */
-  font-weight: bold;                     /* Make the site title bold */
-  text-align: center;                    /* Center the site title horizontally */
-  margin-bottom: 1px;                    /* Small margin below the title */
+  font-size: 2.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1px;
+  flex-grow: 1;
+  transition: all 0.3s ease;
 }
 
+/*-----------------------
+  HTML and Body Styling
+------------------------*/
 html {
-  background-color: #f0f0f0;             /* Background color for the area outside the content */
-  min-height: 100vh;                     /* Ensure background color covers the full height of the page */
-  overflow-y: scroll;                       /* Ensure scrollbar is always visible */
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  overflow-y: scroll;
 }
 
-
-
-
-/* Style for the main content area */
 body {
-  max-width: 800px;                      /* Limit the width of the content area */
-  margin: 10px auto;                     /* Center the body with top/bottom margins */
-  background-color: white;               /* Set the background color for the content */
-  padding: 1em 2em 2em 2em;              /* Add padding inside the content area */
-  line-height: 1.5;                      /* Set the line height for readability */
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);  /* Add a soft shadow around the content area */
-  border-radius: 5px;                   /* Round the corners of the content area */
-  min-height: 90vh;                      /* Ensure the content takes at least 90% of the viewport height */
+  max-width: 800px;
+  margin: 10px auto;
+  background-color: white;
+  padding: 1em 2em 2em 2em;
+  line-height: 1.5;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  min-height: 90vh;
+  transition: max-width 0.3s ease;
 }
 
-.menu a:hover {
-  background-color: hsl(78, 89%, 61%);   /* Change the background color of menu links on hover */
-  color: #333;                           /* Change the text color on hover */
+body a {
+  text-decoration: none;
 }
 
-
-/* Header and footer menu styling */
-.menu { padding: 0; }                    /* Remove default padding for the menu */
-
-.menu li { display: inline-block; }       /* Display menu items inline horizontally */
-
-.menu li::after {
-  content: " | ";                        /* Add a pipe separator between menu items */
-  color: #333;                           /* Set the color of the pipe separator */
-  margin-left: 5px;                      /* Add space between the menu item and the separator */
-  margin-right: 5px;                     /* Add space between the separator and the next item */
+body a:hover {
+  text-decoration: underline;
 }
 
-.menu li:last-child::after {
-  content: "";                           /* Remove the separator after the last menu item */
+body a:visited {
+  color: #1505f1;
 }
 
+/*-----------------------
+  Menu Styling
+------------------------*/
+.menu {
+  padding: 10;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
 
+.menu li {
+  display: inline;
+}
 
 .menu a {
-  text-decoration: none;                 /* Remove underline from menu links */
-  background: #eee;                       /* Set a light background color for menu items */
-  padding: 4px;                          /* Add padding inside each menu item */
-  border-radius: 5px;                    /* Slightly round the corners of menu items */
-}
-
-.menu { text-align: center; }            /* Center-align the entire menu */
-.article-meta { text-align: center; }    /* Center-align the metadata (e.g., author, date) */
-
-
-
-/* Footer styling */
-footer { text-align: center; }           /* Center-align the footer content */
-footer a { text-decoration: none; }      /* Remove underline from footer links */
-
-hr {
-  border-style: dashed;                  /* Set the horizontal rule (hr) to a dashed line */
-  color: #ddd;                           /* Light gray color for the horizontal rule */
-}
-
-/* Code block styling */
-pre {
-  border: 1px solid #ddd;                /* Add a light border around code blocks */
-  box-shadow: 5px 5px 5px #eee;          /* Add a soft shadow around code blocks */
-  padding: 1em;                          /* Add padding inside code blocks */
-  overflow-x: auto;                      /* Allow horizontal scrolling for wide code blocks */
-}
-
-code { background: #f9f9f9; }            /* Set a light background for inline code */
-pre code { background: none; }           /* Remove background for code inside preformatted text */
-
-/* Miscellaneous elements */
-img, iframe, video { max-width: 100%; }  /* Ensure images, iframes, and videos fit within their container */
-main { hyphens: auto; }                  /* Enable automatic hyphenation of text in the main content */
-blockquote {
-  background: #f9f9f9;                   /* Light background for blockquotes */
-  border-left: 5px solid #ccc;           /* Add a solid left border for blockquotes */
-  padding: 3px 1em 3px;                  /* Add padding inside blockquotes */
-}
-
-table {
-  margin: auto;                          /* Center-align tables */
-  border-top: 1px solid #666;            /* Add a dark top border to the table */
-  border-bottom: 1px solid #666;         /* Add a dark bottom border to the table */
-}
-
-table thead th { border-bottom: 1px solid #ddd; }  /* Add a light bottom border to table headers */
-th, td { padding: 5px; }                 /* Add padding inside table cells */
-thead, tfoot, tr:nth-child(even) { background: #eee; }  /* Set a light background for table headers, footers, and even rows */
-
-
-
-
-
-/* LINK BEHAVIOR */ 
-
-a {
-  color: #1505f1; /* Default link color (DodgerBlue) */
-  text-decoration: none; /* Remove underline from links */
-}
-
-a:hover {
-  text-decoration: underline; /* Underline on hover */
-  color: #1505f1; /* Keep the same color on hover */
+  text-decoration: none;
+  padding: 1px 1px;
+  background: none;
+  border-radius: 5px;
+  display: inline;
+  min-width: 50px;
+  min-height: 20px;
+  text-align: center;
+  color: #1505f1;
+  border: 0.5px solid #ccc;
 }
 
 .menu a:hover {
-  text-decoration: none; /* Underline on hover */
-  color: #1505f1; /* Keep the same color on hover */
+  background-color: hsl(78, 89%, 61%);
+  color: #333;
+  text-decoration: none;
 }
 
+/*-----------------------
+  Header and Navigation
+------------------------*/
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 10px 0;
+  flex-direction: row;
+}
+
+/* Hamburger Menu Styling */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 2.5em;
+  background: none;
+  border: none;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
+/*-----------------------
+  Media Queries for Responsive Design
+------------------------*/
+
+/* Small Screens (max-width: 600px) */
+@media (max-width: 799px) {
+  .hamburger {
+    display: block;
+    transition: all 0.3s ease;
+  }
+
+  .menu-wrapper {
+    display: none;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.859);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 0px;
+    border-radius: 5px;
+    max-width: 170px;
+    transition: all 0.3s ease;
+  }
+
+  .menu-wrapper.active {
+    display: block;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu li {
+    display: block;
+    padding: 5px 0;
+    transition: padding 0.3s ease;
+  }
+
+  .menu a {
+    display: block;
+    padding: 5px 10px;
+    background: transparent;
+    border: none;
+    text-align: left;
+  }
+
+  .menu a:hover {
+    background-color: rgba(184, 240, 81, 0.993);
+  }
+
+  .site-title {
+    text-align: center;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+  }
+}
+
+/* Large Screens (min-width: 800px) */
+@media (min-width: 800px) {
+  .menu-wrapper {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  .menu li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+
+  .menu a {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+  }
+}
+
+/*-----------------------
+  Footer Styling
+------------------------*/
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+hr {
+  border-style: line;
+  color: #d0d1d190;
+  margin-top: 20px; 
+}
+
+/*-----------------------
+  Code Block Styling
+------------------------*/
+pre {
+  border: 1px solid #ddd;
+  box-shadow: 5px 5px 5px #eee;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+code {
+  background: #f9f9f9;
+}
+
+pre code {
+  background: none;
+}
+
+/*-----------------------
+  Media & Content Styling
+------------------------*/
+img, iframe, video {
+  max-width: 100%;
+}
+
+main {
+  hyphens: auto;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 5px solid #ccc;
+  padding: 3px 1em;
+}
+
+/*-----------------------
+  Table Styling
+------------------------*/
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+table thead th {
+  border-bottom: 1px solid #ddd;
+}
+
+th, td {
+  padding: 5px;
+}
+
+thead, tfoot, tr:nth-child(even) {
+  background: #eee;
+}

@@ -11,24 +11,66 @@
   </head>
 
   <body>
-    <nav>
     
-    <h1 class="site-title">Pankaj K Mishra</h1>
-    <ul class="menu">
+    <nav class="nav-container">
       
-      <li><a href="/">🏚️ Home</a></li>
+      <button class="hamburger" aria-label="Toggle menu">&#9776;</button>
+
       
-      <li><a href="/research/">🌍 Research</a></li>
-      
-      <li><a href="/publications/">📚 Publications</a></li>
-      
-      <li><a href="/teaching/">🎓 Teaching</a></li>
-      
-      <li><a href="/post/">🗯️ Blog</a></li>
-      
-    </ul>
-    <hr/>
+      <h1 class="site-title">Pankaj K Mishra</h1>
     </nav>
+
+    
+    <nav class="menu-wrapper">
+      <ul class="menu">
+        
+        <li><a href="/">🏚️ Home</a></li>
+        
+        <li><a href="/research/">🌍 Research</a></li>
+        
+        <li><a href="/publications/">📚 Publications</a></li>
+        
+        <li><a href="/teaching/">🎓 Teaching</a></li>
+        
+        <li><a href="/post/">🗯️ Blog</a></li>
+        
+      </ul>
+    </nav>
+
+  
+    <hr>
+    <main>
+      
+      
+    </main>
+    
+    <footer>
+      
+      
+    </footer>
+
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const menuWrapper = document.querySelector('.menu-wrapper');
+
+        
+        hamburger.addEventListener('click', function(event) {
+          event.stopPropagation(); 
+          menuWrapper.classList.toggle('active');
+        });
+
+        
+        document.addEventListener('click', function(event) {
+          if (!menuWrapper.contains(event.target) && !hamburger.contains(event.target)) {
+            menuWrapper.classList.remove('active');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
                                          
 
 <h1>Categories</h1>                                                 
