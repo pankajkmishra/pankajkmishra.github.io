@@ -5,8 +5,7 @@
   font-size: 2.8em;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 1px;
-  flex-grow: 1;
+  margin-bottom: 10px; /* Space below the title */
   transition: all 0.3s ease;
 }
 
@@ -82,10 +81,9 @@ body a:visited {
 .nav-container {
   display: flex;
   align-items: center;
+  flex-direction: column; /* Stack title and hamburger vertically */
   justify-content: center;
-  position: relative;
   padding: 10px 0;
-  flex-direction: row;
 }
 
 /* Hamburger Menu Styling */
@@ -95,10 +93,6 @@ body a:visited {
   font-size: 2.5em;
   background: none;
   border: none;
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
   z-index: 1001;
 }
 
@@ -110,17 +104,24 @@ body a:visited {
   Media Queries for Responsive Design
 ------------------------*/
 
-/* Small Screens (max-width: 600px) */
+/* Small Screens (max-width: 799px) */
 @media (max-width: 799px) {
   .hamburger {
     display: block;
+    margin-top: 10px; /* Add margin to push the hamburger below the title */
     transition: all 0.3s ease;
+    text-align: left;
+  }
+
+  /* Make site title smaller on mobile */
+  .site-title {
+    font-size: 1.8em; /* Reduce font size for mobile */
   }
 
   .menu-wrapper {
     display: none;
     position: absolute;
-    top: 120px;
+    top: 160px; /* Adjusted to account for new position below title */
     left: 0px;
     right: 0px;
     background-color: rgba(255, 255, 255, 0.859);
@@ -156,12 +157,6 @@ body a:visited {
 
   .menu a:hover {
     background-color: rgba(184, 240, 81, 0.993);
-  }
-
-  .site-title {
-    text-align: center;
-    margin: 0 auto;
-    transition: all 0.3s ease;
   }
 }
 
