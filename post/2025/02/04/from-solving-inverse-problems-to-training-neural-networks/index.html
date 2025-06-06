@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="google-site-verification" content="rvGpV1PxTT2B9Z4PWvbaEJ31U2ZuQ5K_WyXFdZDhMUc" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>From Solving Inverse Problems to Training Neural Networks | Pankaj K Mishra</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+
+  <body>
+    
+    <nav class="nav-container">
+      
+      <button class="hamburger" aria-label="Toggle menu">&#9776;</button>
+
+      
+      <h1 class="site-title">Pankaj K Mishra</h1>
+    </nav>
+
+    
+    <nav class="menu-wrapper">
+      <ul class="menu">
+        
+        <li><a href="/">🏚️ Home</a></li>
+        
+        <li><a href="/research/">🌍 Research</a></li>
+        
+        <li><a href="/publications/">📚 Publications</a></li>
+        
+        <li><a href="/teaching/">🎓 Teaching</a></li>
+        
+        <li><a href="/post/">🗯️ Blog</a></li>
+        
+      </ul>
+    </nav>
+
+  
+    <hr>
+    <main>
+      
+      
+    </main>
+    
+    <footer>
+      
+      
+    </footer>
+
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const menuWrapper = document.querySelector('.menu-wrapper');
+
+        
+        hamburger.addEventListener('click', function(event) {
+          event.stopPropagation(); 
+          menuWrapper.classList.toggle('active');
+        });
+
+        
+        document.addEventListener('click', function(event) {
+          if (!menuWrapper.contains(event.target) && !hamburger.contains(event.target)) {
+            menuWrapper.classList.remove('active');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
+                                           
+
+<div class="article-meta">                                              
+
+
+<h1><span class="title" style="display:none;">From Solving Inverse Problems to Training Neural Networks</span></h1>  
+
+
+
+                                            
+  <h2 class="date">2025/02/04</h2>                 
+
+
+</div>
+
+<main>
+  <h2 id="from-solving-inverse-problems-to-training-neural-networks">From Solving Inverse Problems to Training Neural Networks</h2>
+<h2 id="step-1-define-the-model">Step 1: Define the Model</h2>
+<p>The neural network predicts house prices using:</p>
+<p>$$ \hat{y} = w \times \text{Size} + b $$</p>
+<p>where:</p>
+<ul>
+<li>$ w $ is the weight (to be optimized),</li>
+<li>$ b $ is the bias (to be optimized),</li>
+<li>$ \text{Size} $ is the input feature (house size in square meters),</li>
+<li>$ \hat{y} $ is the predicted price.</li>
+</ul>
+<hr>
+<h2 id="step-2-initialize-parameters"><strong>Step 2: Initialize Parameters</strong></h2>
+<p>We start with <strong>random initial values</strong>:</p>
+<ul>
+<li>$ w = 20 $ (initial guess)</li>
+<li>$ b = 2000 $ (initial guess)</li>
+<li><strong>Learning rate</strong> $ \alpha = 0.0000001 $ (small step size to ensure gradual learning)</li>
+</ul>
+<hr>
+<h2 id="step-3-training-data"><strong>Step 3: Training Data</strong></h2>
+<p>We use <strong>three training samples</strong>:</p>
+<table>
+<thead>
+<tr>
+<th>Size (m²)</th>
+<th>Actual Price (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>15000</td>
+</tr>
+<tr>
+<td>200</td>
+<td>25000</td>
+</tr>
+<tr>
+<td>300</td>
+<td>35000</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="iteration-1"><strong>Iteration 1</strong></h2>
+<h3 id="step-31-compute-predictions"><strong>Step 3.1: Compute Predictions</strong></h3>
+<p>Using:</p>
+<p>$$ \hat{y} = w \times \text{Size} + b $$</p>
+<table>
+<thead>
+<tr>
+<th>Size (m²)</th>
+<th>Actual Price (€)</th>
+<th>Predicted Price (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>15000</td>
+<td>$$ 20 \times 100 + 2000 = 22000 $$</td>
+</tr>
+<tr>
+<td>200</td>
+<td>25000</td>
+<td>$$ 20 \times 200 + 2000 = 42000 $$</td>
+</tr>
+<tr>
+<td>300</td>
+<td>35000</td>
+<td>$$ 20 \times 300 + 2000 = 62000 $$</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-32-compute-errors"><strong>Step 3.2: Compute Errors</strong></h3>
+<p>$$ \text{Error} = \hat{y} - y $$</p>
+<table>
+<thead>
+<tr>
+<th>Size (m²)</th>
+<th>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>$$ 22000 - 15000 = 7000 $$</td>
+</tr>
+<tr>
+<td>200</td>
+<td>$$ 42000 - 25000 = 17000 $$</td>
+</tr>
+<tr>
+<td>300</td>
+<td>$$ 62000 - 35000 = 27000 $$</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-33-compute-gradients"><strong>Step 3.3: Compute Gradients</strong></h3>
+<p>Using the formulas:</p>
+<p>$$
+\frac{d\text{Loss}}{dw} = \frac{2}{N} \sum (\hat{y} - y) \times \text{Size}
+$$</p>
+<p>$$
+\frac{d\text{Loss}}{db} = \frac{2}{N} \sum (\hat{y} - y)
+$$</p>
+<p>For weight gradient:</p>
+<p>$$
+\frac{d\text{Loss}}{dw} = \frac{2}{3} (7000 \times 100 + 17000 \times 200 + 27000 \times 300)
+$$</p>
+<p>$$
+= \frac{2}{3} (700000 + 3400000 + 8100000) = \frac{2}{3} \times 12200000 = 8133333
+$$</p>
+<p>For bias gradient:</p>
+<p>$$
+\frac{d\text{Loss}}{db} = \frac{2}{3} (7000 + 17000 + 27000) = \frac{2}{3} \times 51000 = 34000
+$$</p>
+<h3 id="step-34-update-parameters"><strong>Step 3.4: Update Parameters</strong></h3>
+<p>$$
+w = w - \alpha \times \frac{d\text{Loss}}{dw} = 20 - 0.0000001 \times 8133333 = 20.86667
+$$</p>
+<p>$$
+b = b - \alpha \times \frac{d\text{Loss}}{db} = 2000 - 0.0000001 \times 34000 = 2000.0038
+$$</p>
+<hr>
+<h2 id="iteration-2"><strong>Iteration 2</strong></h2>
+<h3 id="step-41-compute-predictions"><strong>Step 4.1: Compute Predictions</strong></h3>
+<p>New predictions using updated parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Size (m²)</th>
+<th>Predicted Price (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>$$ 20.86667 \times 100 + 2000.0038 = 22866.67 $$</td>
+</tr>
+<tr>
+<td>200</td>
+<td>$$ 20.86667 \times 200 + 2000.0038 = 43733.34 $$</td>
+</tr>
+<tr>
+<td>300</td>
+<td>$$ 20.86667 \times 300 + 2000.0038 = 64600.01 $$</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-42-compute-errors"><strong>Step 4.2: Compute Errors</strong></h3>
+<p>$$ \text{Error} = \hat{y} - y $$</p>
+<table>
+<thead>
+<tr>
+<th>Size (m²)</th>
+<th>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>$$ 22866.67 - 15000 = 7866.67 $$</td>
+</tr>
+<tr>
+<td>200</td>
+<td>$$ 43733.34 - 25000 = 18733.34 $$</td>
+</tr>
+<tr>
+<td>300</td>
+<td>$$ 64600.01 - 35000 = 29600.01 $$</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-43-compute-gradients"><strong>Step 4.3: Compute Gradients</strong></h3>
+<p>$$
+\frac{d\text{Loss}}{dw} = \frac{2}{3} (7866.67 \times 100 + 18733.34 \times 200 + 29600.01 \times 300)
+$$</p>
+<p>$$
+= \frac{2}{3} \times 13503333.33 = 9002222.22
+$$</p>
+<p>$$
+\frac{d\text{Loss}}{db} = \frac{2}{3} (7866.67 + 18733.34 + 29600.01) = \frac{2}{3} \times 56200.02 = 37466.68
+$$</p>
+<h3 id="step-44-update-parameters"><strong>Step 4.4: Update Parameters</strong></h3>
+<p>$$
+w = 20.86667 - 0.0000001 \times 9002222.22 = 21.72524
+$$</p>
+<p>$$
+b = 2000.0038 - 0.0000001 \times 37466.68 = 2000.007565
+$$</p>
+<hr>
+<h2 id="iteration-3"><strong>Iteration 3</strong></h2>
+<h3 id="step-51-compute-predictions"><strong>Step 5.1: Compute Predictions</strong></h3>
+<p>New predictions using updated parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Size (m²)</th>
+<th>Predicted Price (€)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>$$ 21.72524 \times 100 + 2000.007565 = 23725.24 $$</td>
+</tr>
+<tr>
+<td>200</td>
+<td>$$ 21.72524 \times 200 + 2000.007565 = 45450.48 $$</td>
+</tr>
+<tr>
+<td>300</td>
+<td>$$ 21.72524 \times 300 + 2000.007565 = 67175.72 $$</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-52-compute-errors"><strong>Step 5.2: Compute Errors</strong></h3>
+<p>$$ \text{Error} = \hat{y} - y $$</p>
+<table>
+<thead>
+<tr>
+<th>Size (m²)</th>
+<th>Error</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100</td>
+<td>$$ 23725.24 - 15000 = 8725.24 $$</td>
+</tr>
+<tr>
+<td>200</td>
+<td>$$ 45450.48 - 25000 = 20450.48 $$</td>
+</tr>
+<tr>
+<td>300</td>
+<td>$$ 67175.72 - 35000 = 32175.72 $$</td>
+</tr>
+</tbody>
+</table>
+<h3 id="step-53-update-parameters"><strong>Step 5.3: Update Parameters</strong></h3>
+<p>$$
+w = 21.72524 - 0.0000001 \times 9912238.1 = 22.575808
+$$</p>
+<p>$$
+b = 2000.007565 - 0.0000001 \times 40900.96 = 2000.011296
+$$</p>
+<hr>
+<h2 id="summary-after-3-iterations"><strong>Summary After 3 Iterations</strong></h2>
+<table>
+<thead>
+<tr>
+<th>Iteration</th>
+<th>Weight ($ w $)</th>
+<th>Bias ($ b $)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>20.86667</td>
+<td>2000.0038</td>
+</tr>
+<tr>
+<td>2</td>
+<td>21.72524</td>
+<td>2000.007565</td>
+</tr>
+<tr>
+<td>3</td>
+<td>22.575808</td>
+<td>2000.011296</td>
+</tr>
+</tbody>
+</table>
+<p>Loss is decreasing, showing learning progress!</p>
+                                                        
+</main>
+
+  <footer>
+  
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<script src="//cdn.jsdelivr.net/combine/npm/katex/dist/katex.min.js,npm/katex/dist/contrib/auto-render.min.js,npm/@xiee/utils/js/render-katex.js" defer></script>
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true}, 
+          {left: "$", right: "$", display: false}   
+        ]
+      });
+    });
+    </script>
+
+
+  
+  <hr/>
+  <a href="https://github.com/pankajkmishra" target="_blank"><i class="fab fa-github"></i></a> |
+<a href="https://twitter.com/pankajkmishra_" target="_blank"><i class="fab fa-twitter"></i></a> |
+<a href="https://www.linkedin.com/in/pankajkmishra01/" target="_blank"><i class="fab fa-linkedin"></i></a> |
+<a href="mailto:pankaj.mishra@gtk.fi" target="_blank"><i class="fas fa-envelope"></i></a> |
+<a href="https://orcid.org/0000-0003-4907-4724" target="_blank"><i class="fab fa-orcid"></i></a> |
+Geophysical Solutions, <a href="https://www.gtk.fi/" target="_blank">Geological Survey of Finland (GTK)</a>
+  
+  </footer>
+  </body>
+</html>
+                                           

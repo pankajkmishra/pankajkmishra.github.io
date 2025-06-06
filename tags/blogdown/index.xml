@@ -6,14 +6,14 @@
     <description>Recent content in blogdown on Pankaj K Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pankajkmishra.github.io/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mardown posts - simpler and better</title>
-      <link>https://pankajkmishra.github.io/post/2024/09/05/mardown-posts-simpler-and-better/</link>
-      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/post/2024/09/05/mardown-posts-simpler-and-better/</guid>
-      <description></description>
+      <title>From Solving Inverse Problems to Training Neural Networks</title>
+      <link>https://pankajkmishra.github.io/post/2025/02/04/from-solving-inverse-problems-to-training-neural-networks/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/post/2025/02/04/from-solving-inverse-problems-to-training-neural-networks/</guid>
+      <description>From Solving Inverse Problems to Training Neural Networks Step 1: Define the Model The neural network predicts house prices using:&#xA;$$ \hat{y} = w \times \text{Size} + b $$&#xA;where:&#xA;$ w $ is the weight (to be optimized), $ b $ is the bias (to be optimized), $ \text{Size} $ is the input feature (house size in square meters), $ \hat{y} $ is the predicted price. Step 2: Initialize Parameters We start with random initial values:</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,29 @@
     <description>Recent content in Home on Pankaj K Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pankajkmishra.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Solving Inverse Problems to Training Neural Networks</title>
+      <link>https://pankajkmishra.github.io/post/2025/02/04/from-solving-inverse-problems-to-training-neural-networks/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/post/2025/02/04/from-solving-inverse-problems-to-training-neural-networks/</guid>
+      <description>From Solving Inverse Problems to Training Neural Networks Step 1: Define the Model The neural network predicts house prices using:&#xA;$$ \hat{y} = w \times \text{Size} + b $$&#xA;where:&#xA;$ w $ is the weight (to be optimized), $ b $ is the bias (to be optimized), $ \text{Size} $ is the input feature (house size in square meters), $ \hat{y} $ is the predicted price. Step 2: Initialize Parameters We start with random initial values:</description>
+    </item>
+    <item>
+      <title>I&#39;ll be at - International Conference on Applied AI and Scientific Machine Learning at IISc Banglore, India</title>
+      <link>https://pankajkmishra.github.io/note/2024/12/14/another-note/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/note/2024/12/14/another-note/</guid>
+      <description>International Conference on&#xA;Applied AI and Scientific Machine Learning December 14 -18, 2024&#xA;https://casml.cc/</description>
+    </item>
+    <item>
+      <title>Visiting IIT Bombay India for Research collaboration</title>
+      <link>https://pankajkmishra.github.io/note/2024/12/07/another/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/note/2024/12/07/another/</guid>
+      <description>Visiting IIT Bombay, India for Research collaboration I will be at IIT Bombay, India for research collaboration. I will summarize public information of this after the visit.&#xA;I am open to meeting potential collaborators and students to talk about research and common</description>
+    </item>
     <item>
       <title>The Art of Being a Coauthor</title>
       <link>https://pankajkmishra.github.io/post/2024/10/17/the-art-of-being-a-coauthor/</link>
@@ -16,18 +37,11 @@
       <description>The Art of Being a Coauthor So You Have Been Invited to Be a Coauthor—Congratulations! Most likely, even before contributing to the writing, you’ve already played a significant role, perhaps by providing key data, technical expertise, or essential resources. This is a rewarding moment, as it signifies that your contribution is recognized and valued. However, with this recognition comes a responsibility to support the progress of the paper or proposal. In reality, most of the writing and heavy lifting is carried out by one or two lead authors, who are often PhD students or postdocs.</description>
     </item>
     <item>
-      <title>Mardown posts - simpler and better</title>
-      <link>https://pankajkmishra.github.io/post/2024/09/05/mardown-posts-simpler-and-better/</link>
-      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/post/2024/09/05/mardown-posts-simpler-and-better/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Publications</title>
       <link>https://pankajkmishra.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/publications/</guid>
-      <description>For an up-to-date list, visit: 🎓 Google Scholar 📄 Stochastic joint-inversion and uncertainty quantification of seismic and CSEM data&#xA;Pankaj K Mishra, Adrien Arnulf, Mrinal K Sen, Zeyu Zhao, and Piyoosh Jaysaval.&#xA;Earth and Space Science Open Archive, DOI: 10.22541/au.172591515.59105520/v2, 2024.&#xA;📄 Enhancing RBF-FD efficiency for highly non-uniform nodes distributions via adaptivity&#xA;S Li, Leevan Ling, Xin Liu, Pankaj K Mishra, Mrinal K Sen, and J Zhang.&#xA;Numerical Mathematics: Theory, Methods and Applications 17, 310-330 - 2024</description>
+      <description>For an up-to-date list, visit: 🎓 Google Scholar 📄 Lithosphere in digital twins of the Earth&#xA;Pankaj K Mishra Geophysical Journal International 242 (1), Accepted — Article in Press, 2025.&#xA;📄 Stochastic joint-inversion of seismic and controlled-source electromagnetic data&#xA;Pankaj K Mishra, Adrien Arnulf, Mrinal K Sen, Zeyu Zhao, and Piyoosh Jaysaval.&#xA;Geophysical Prospecting, Accepted — Article in Press, 2025.&#xA;📄 Enhancing RBF-FD efficiency for highly non-uniform nodes distributions via adaptivity</description>
     </item>
     <item>
       <title>Research</title>

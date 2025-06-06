@@ -6,21 +6,21 @@
     <description>Recent content in Posts on Pankaj K Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://pankajkmishra.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Solving Inverse Problems to Training Neural Networks</title>
+      <link>https://pankajkmishra.github.io/post/2025/02/04/from-solving-inverse-problems-to-training-neural-networks/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/post/2025/02/04/from-solving-inverse-problems-to-training-neural-networks/</guid>
+      <description>From Solving Inverse Problems to Training Neural Networks Step 1: Define the Model The neural network predicts house prices using:&#xA;$$ \hat{y} = w \times \text{Size} + b $$&#xA;where:&#xA;$ w $ is the weight (to be optimized), $ b $ is the bias (to be optimized), $ \text{Size} $ is the input feature (house size in square meters), $ \hat{y} $ is the predicted price. Step 2: Initialize Parameters We start with random initial values:</description>
+    </item>
     <item>
       <title>The Art of Being a Coauthor</title>
       <link>https://pankajkmishra.github.io/post/2024/10/17/the-art-of-being-a-coauthor/</link>
       <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/post/2024/10/17/the-art-of-being-a-coauthor/</guid>
       <description>The Art of Being a Coauthor So You Have Been Invited to Be a Coauthor—Congratulations! Most likely, even before contributing to the writing, you’ve already played a significant role, perhaps by providing key data, technical expertise, or essential resources. This is a rewarding moment, as it signifies that your contribution is recognized and valued. However, with this recognition comes a responsibility to support the progress of the paper or proposal. In reality, most of the writing and heavy lifting is carried out by one or two lead authors, who are often PhD students or postdocs.</description>
-    </item>
-    <item>
-      <title>Mardown posts - simpler and better</title>
-      <link>https://pankajkmishra.github.io/post/2024/09/05/mardown-posts-simpler-and-better/</link>
-      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://pankajkmishra.github.io/post/2024/09/05/mardown-posts-simpler-and-better/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
