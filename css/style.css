@@ -46,7 +46,7 @@ body a:hover {
 }
 
 body a:visited {
-  color: #100374;
+  color: #150492;
 }
 
 /*-----------------------
@@ -72,7 +72,7 @@ body a:visited {
   min-width: 50px;
   min-height: 20px;
   text-align: center;
-  color: #100374;
+  color: #150492;
   border: 0.5px solid #ccc;
 }
 
