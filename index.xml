@@ -27,7 +27,7 @@
       <link>https://pankajkmishra.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/publications/</guid>
-      <description>For an up-to-date list, visit: 🎓 Google Scholar 📄 Three-dimensional inversion of gravity data using implicit neural representations&#xA;Pankaj K Mishra, Sanni Laaksonen, Jochen Kamm and Anand Singh.&#xA;Arxiv Priprint: arXiv:2510.17876, 2025.&#xA;📄 Lithosphere in digital twins of the Earth&#xA;Pankaj K Mishra Geophysical Journal International 242(2), ggaf199, 2025.&#xA;📄 Stochastic joint-inversion of seismic and controlled-source electromagnetic data&#xA;Pankaj K Mishra, Adrien Arnulf, Mrinal K Sen, Zeyu Zhao, and Piyoosh Jaysaval.</description>
+      <description>For an up-to-date list, visit: 🎓 Google Scholar Three-dimensional inversion of gravity data using implicit neural representations&#xA;Pankaj K Mishra, Sanni Laaksonen, Jochen Kamm and Anand Singh.&#xA;Arxiv Priprint: arXiv:2510.17876, 2025.&#xA;Lithosphere in digital twins of the Earth&#xA;Pankaj K Mishra Geophysical Journal International 242(2), ggaf199, 2025.&#xA;Stochastic joint-inversion of seismic and controlled-source electromagnetic data&#xA;Pankaj K Mishra, Adrien Arnulf, Mrinal K Sen, Zeyu Zhao, and Piyoosh Jaysaval.&#xA;Geophysical Prospecting,73(6) e70043, 2025.</description>
     </item>
     <item>
       <title>Research</title>
@@ -37,11 +37,18 @@
       <description>✨ MULTIVERSE - Multiphysics inversion and uncertainty estimation (2024 - 2026) Your browser does not support the video tag. MULTIVERSE is a project that will develop methods and technologies for stochastic multiphysics inversion and uncertainty estimation for geophysical data, leveraging modern high-performance computing (HPC) and scientific machine learning (SciML). The project aims to revolutionize the resolution of geophysical challenges by advancing data extraction techniques. By integrating physics-based knowledge into machine learning, MULTIVERSE reduces reliance on large datasets and enables fast, reliable predictions for parameter inference, uncertainty estimation, and data integration, even with limited, noisy, and multiscale geophysical data.</description>
     </item>
     <item>
+      <title>Software</title>
+      <link>https://pankajkmishra.github.io/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pankajkmishra.github.io/software/</guid>
+      <description>Lead developer &amp;amp; maintainer of Julia Geophysics organisation.&#xA;MTGeophysics.jl &amp;mdash; A software repository for magnetotelluric geophysics research and applications NodeLab &amp;mdash; Node-generation and adaptive refinement for testing, and implementing various meshfree methods (including physics-informed machine learning) for solving PDEs in arbitrary domains </description>
+    </item>
+    <item>
       <title>Teaching</title>
       <link>https://pankajkmishra.github.io/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/teaching/</guid>
-      <description>&#xA;Inversion of Geophysical Data (Instructor) &amp;mdash; spring 2024 🏛️ University of Helsinki&#xA;Seismic Methods of Prospecting Laboratory (TA) &amp;mdash; autumn 2014, 2015, 2016 🏛️ Indian Institute of Technology Kharagpur&#xA;MATLAB for Geoscience (Workshop) &amp;mdash; 2014, 2015 🏛️ Indian Institute of Technology Kharagpur </description>
+      <description>Courses &amp;amp; Workshops Inversion of Geophysical Data (Instructor) &amp;mdash; University of Helsinki | 2024, 2026 Seismic Methods of Prospecting Laboratory (TA) &amp;mdash; Indian Institute of Technology Kharagpur, India | autumn 2014, 2015, 2016 MATLAB for Geoscience (Workshop) &amp;mdash; Indian Institute of Technology Kharagpur, India | 2014, 2015 PhD Students Naimatullah (Co-Supervisor) &amp;mdash; Department of Earth Sciences, Indian Institute of Technology Bombay Fareeda B. S.(Co-Supervisor) &amp;mdash; Department of Geophysics, Indian Institute of Petroleum and Energy Masters Students Eetu Hyppiö (Supervisor) &amp;mdash; University of Oulu </description>
     </item>
   </channel>
 </rss>
