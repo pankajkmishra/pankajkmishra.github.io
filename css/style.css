@@ -45,8 +45,8 @@ body a:hover {
   text-decoration: underline;
 }
 
-body a:visited {
-  color: #150492;
+body a:link, body a:visited {
+  color: #1a05ba;
 }
 
 /*-----------------------
@@ -63,6 +63,7 @@ body a:visited {
   display: inline;
 }
 
+
 .menu a {
   text-decoration: none;
   padding: 1px 1px;
@@ -72,7 +73,7 @@ body a:visited {
   min-width: 50px;
   min-height: 20px;
   text-align: center;
-  color: #150492;
+  color: #1a05ba;
   border: 0.5px solid #ccc;
 }
 
