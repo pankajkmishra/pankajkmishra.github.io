@@ -27,7 +27,7 @@
       <link>https://pankajkmishra.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pankajkmishra.github.io/research/</guid>
-      <description>✨ MULTIVERSE - Multiphysics inversion and uncertainty estimation (2024 - 2026) Your browser does not support the video tag. MULTIVERSE is a project that will develop methods and technologies for stochastic multiphysics inversion and uncertainty estimation for geophysical data, leveraging modern high-performance computing (HPC) and scientific machine learning (SciML). The project aims to revolutionize the resolution of geophysical challenges by advancing data extraction techniques. By integrating physics-based knowledge into machine learning, MULTIVERSE reduces reliance on large datasets and enables fast, reliable predictions for parameter inference, uncertainty estimation, and data integration, even with limited, noisy, and multiscale geophysical data.</description>
+      <description>Physics-based machine learning for geophysical inversion Stochastic inversion, uncertainty estimation and joint-inversion Your browser does not support the video tag. Large-scale 3D magnetotelluric modelling &amp;amp; inversion D-Rex, funded by ERA-MIN2 under Horizon 2020, has concluded its work and is now in the reporting phase. The project advanced the understanding of mineral systems through geophysical data from Sweden, Norway, and Finland, integrating it into a unified Common Earth Model (CEM). Key efforts included electromagnetic surveys, 3D modeling, and machine learning techniques.</description>
     </item>
     <item>
       <title>Software</title>

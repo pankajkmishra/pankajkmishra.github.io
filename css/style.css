@@ -2,9 +2,10 @@
   Site Title Styling
 ------------------------*/
 .site-title {
-  font-size: 2.8em;
-  font-weight: bold;
+  font-size: 2em;
+  font-weight:bold;
   text-align: center;
+  color: #13049b;
   margin-bottom: 10px; /* Space below the title */
   transition: all 0.3s ease;
 }
@@ -46,7 +47,7 @@ body a:hover {
 }
 
 body a:link, body a:visited {
-  color: #1a05ba;
+  color: #0000FF;
 }
 
 /*-----------------------
@@ -73,7 +74,7 @@ body a:link, body a:visited {
   min-width: 50px;
   min-height: 20px;
   text-align: center;
-  color: #1a05ba;
+  color:#0000FF;
   border: 0.5px solid #ccc;
 }
 
