@@ -1,0 +1,772 @@
+/*-- scss:defaults --*/
+
+/* ================================================================
+   Color Palette — edit these to restyle the entire site
+   ================================================================
+   $clr-navy:      Navbar background, badges, buttons, accents
+   $clr-text:      Main body text, headings, strong labels
+   $clr-secondary: Taglines, meta info, subtle text
+   $clr-border:    Lines, table borders, card edges
+   $clr-surface:   Abstract backgrounds, callout fills
+   $clr-page-bg:   Outside-the-content background (visible gutters)
+   $clr-card-bg:   Content area / card background
+   ================================================================ */
+$clr-navy:      #020133;   /* navbar, badges, buttons              */
+$clr-text:      #2d2d2d;   /* body text + headings                 */
+$clr-secondary: #555;      /* taglines, meta, muted text           */
+$clr-border:    #e0e0e0;   /* borders, dividers                    */
+$clr-surface:   #f5f5f3;   /* abstract bg, callout bg              */
+$clr-page-bg:   #e8e8e8;   /* outer page background                */
+$clr-card-bg:   #ffffff;   /* content area background              */
+$site-max-width: 1300px;   /* content area max width                */
+
+/* Bootstrap / Quarto variable overrides */
+$primary: $clr-navy;
+$link-color: #0000FF;
+$link-hover-color: #0000FF;
+$body-color: $clr-text;
+$headings-color: $clr-text;
+$font-family-sans-serif: 'Source Sans 3', 'Segoe UI', system-ui, -apple-system, sans-serif;
+$border-radius: 0.0rem;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+/* ---- Global ---- */
+body {
+  background: $clr-page-bg;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Global typography size */
+html {
+  font-size: 12.5pt;
+}
+
+body {
+  font-size: 1rem;
+  --bs-body-font-size: 1rem;
+}
+
+/* ---- Constrain everything to same max-width & gutters ---- */
+#quarto-content {
+  max-width: $site-max-width;
+  margin: 0 auto;
+  background: $clr-card-bg;
+  box-shadow: 0 0 60px rgba(0,0,0,0.05);
+}
+
+/* Navbar: constrain inner content AND outer bar to content width */
+.navbar {
+  max-width: $site-max-width;
+  margin: 0 auto;
+  border-bottom: 1px solid $clr-border;
+  background: $clr-card-bg !important;
+}
+
+/* Navbar logo & brand */
+.navbar .navbar-brand img {
+  height: 35pt !important;
+  width: auto;
+  max-height: none !important;
+}
+
+.navbar .navbar-brand {
+  font-size: 28pt;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Header (navbar) text sizes */
+.navbar .navbar-nav .nav-link,
+.navbar .dropdown-menu .dropdown-item {
+  font-size: 14pt;
+}
+
+.navbar > .container-fluid {
+  max-width: $site-max-width;
+  margin: 0 auto;
+}
+
+#quarto-footer {
+  max-width: $site-max-width;
+  margin: 0 auto;
+  background: #fafafa;
+}
+
+#quarto-footer .nav-footer {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+/* ---- Post title block (date + title shown above content) ---- */
+#title-block-header.quarto-title-block .quarto-title h1.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+  color: $clr-text;
+}
+
+#title-block-header .quarto-title-meta {
+  font-size: 0.95rem;
+  color: $clr-secondary;
+  margin-bottom: 1.5rem;
+}
+
+#title-block-header .quarto-title-meta-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.75rem;
+  color: $clr-secondary;
+}
+
+/* ---- Blog listing: bold post titles ---- */
+.quarto-listing .listing-title,
+.quarto-listing .listing-title a {
+  font-weight: 700;
+  color: $link-color;
+  font-size: 1.05rem;
+}
+
+.quarto-listing .listing-title a:hover { text-decoration: underline; }
+
+.quarto-listing .listing-description {
+  color: $clr-secondary;
+  margin-top: 0.25rem;
+}
+
+.quarto-listing .listing-date {
+  color: $clr-secondary;
+  font-weight: 500;
+}
+
+/* ================================================================
+   Page Header — slim, elegant, same-width as content
+   ================================================================ */
+.page-header {
+  background: transparent;
+  padding: 1.75rem 0 1.25rem;
+  margin: 0 0 2rem;
+  border-bottom: 1px solid $clr-border;
+}
+
+.page-header-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.badge-upcoming { background: $clr-navy; color: #fff; }
+.badge-completed { background: #777; color: #fff; }
+.badge-default { background: #999; color: #fff; }
+
+.page-header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: $headings-color;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.025em;
+}
+
+.page-header .tagline {
+  font-size: 1rem;
+  color: $clr-secondary;
+  margin: 0 0 0.6rem;
+  font-weight: 400;
+}
+
+/* ---- Home: profile picture float ---- */
+.profile-pic {
+  max-width: 22%;
+  min-width: 140px;
+  float: right;
+  border-radius: 10%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  margin: 0 0 1rem 1.25rem;
+}
+
+.home-lede {
+  margin: 0 0 1.25rem;
+  color: $clr-secondary;
+}
+
+.supported-by {
+  border-top: 1px solid $clr-border;
+  padding-top: 1.0rem;
+  margin-top: 1.0rem;
+  color: $clr-secondary;
+  font-weight: 600;
+}
+
+.page-header .meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-size: 1rem;
+  color: $clr-secondary;
+}
+
+.page-header .meta span { white-space: nowrap; }
+
+/* ---- Action buttons ---- */
+.actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.85rem;
+}
+
+.btn-act {
+  display: inline-block;
+  padding: 0.45rem 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid $primary;
+  transition: all 100ms ease;
+}
+
+.btn-act.primary { background: $clr-navy; color: #fff; }
+.btn-act.primary:hover { background: #2a2a5e; border-color: #2a2a5e; color: #fff; text-decoration: none; }
+.btn-act.secondary { background: transparent; color: $clr-navy; }
+.btn-act.secondary:hover { background: $clr-navy; color: #fff; text-decoration: none; }
+.btn-act.disabled { opacity: 0.4; pointer-events: none; }
+
+/* ---- Section nav pills ---- */
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid #eee;
+}
+
+.section-nav a {
+  padding: 0.3rem 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: $clr-secondary;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: all 80ms ease;
+}
+
+.section-nav a:hover {
+  background: #f0f0f0;
+  color: $headings-color;
+  text-decoration: none;
+}
+
+/* ================================================================
+   Content typography
+   ================================================================ */
+.content-body h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2.25rem 0 0.85rem;
+  padding-bottom: 0.6rem;
+  border-top: none;
+  border-bottom: 1px solid $clr-border;
+  color: $headings-color;
+  letter-spacing: -0.01em;
+  scroll-margin-top: 80px;
+}
+
+.content-body h2:first-of-type {
+  margin-top: 1rem;
+}
+
+/* Suppress Bootstrap/flatly underline on all headings inside content */
+.content-body h1,
+.content-body h3,
+.content-body h4,
+.content-body h5,
+.content-body h6,
+#quarto-document-content h1,
+#quarto-document-content h2,
+#quarto-document-content h3,
+#quarto-document-content h4 {
+  border-bottom: none;
+}
+
+.content-body h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.6rem;
+  color: $headings-color;
+}
+
+.content-body ul, .content-body ol {
+  margin-bottom: 1rem;
+  padding-left: 1.15rem;
+}
+
+.content-body li { margin-bottom: 0.3rem; }
+
+.content-body p {
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.section-spacer {
+  margin-top: 2.25rem;
+}
+
+.dash-list-wrap ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.dash-list-wrap ul li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.dash-list-wrap ul li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: $clr-text;
+}
+
+/* ---- Tables — clean, minimal ---- */
+.content-body table,
+#quarto-document-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.content-body table th,
+.content-body table td,
+#quarto-document-content table th,
+#quarto-document-content table td {
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid $clr-border;
+}
+
+.content-body table th,
+#quarto-document-content table th {
+  font-weight: 600;
+  color: $headings-color;
+  border-bottom: 2px solid #ddd;
+  background: transparent;
+}
+
+.content-body table tr:hover,
+#quarto-document-content table tr:hover { background: #fafafa; }
+
+.content-body table tr:nth-child(even),
+#quarto-document-content table tr:nth-child(even) { background: transparent; }
+
+/* ---- Callout box ---- */
+.callout-box {
+  background: $clr-surface;
+  padding: 1.1rem 1.25rem;
+  border-radius: 5px;
+  border-left: 3px solid $clr-navy;
+  margin: 1.25rem 0;
+}
+
+.callout-box h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+/* ---- Research figures ---- */
+.research-figure {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.research-figure--narrow {
+  max-width: 70%;
+}
+
+/* ---- Supervision two-column list ---- */
+.supervision-list {
+  margin: 0.5rem 0 1rem;
+}
+
+.supervision-item {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1.5rem;
+  padding: 0.85rem 0;
+  align-items: start;
+}
+
+.teaching-list.supervision-list .supervision-item {
+  grid-template-columns: 320px 1fr;
+}
+
+.supervision-name p { margin: 0 0 0.35rem; }
+.supervision-name a { font-weight: 700; }
+
+.supervision-details p { margin: 0 0 0.25rem; line-height: 1.5; }
+.supervision-details p:last-child { margin-bottom: 0; }
+
+.thesis-topic {
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+@media (max-width: 640px) {
+  .supervision-item {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+}
+
+/* ---- Status badges (Ongoing / Completed) ---- */
+.meta-year {
+  display: inline-block;
+  margin-top: 0.25rem;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: $clr-surface;
+  color: $clr-secondary;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+
+.meta-year.ongoing {
+  background: #e9f4ee;
+  color: #1f6f4a;
+  border-color: #c7e6d5;
+}
+
+.meta-year.completed {
+  background: #eef1f6;
+  color: #1d3a8a;
+  border-color: #cfd9ea;
+}
+
+.meta-year.upcoming {
+  background: #ececec;
+  color: #555;
+  border-color: #d8d8d8;
+}
+
+/* ---- Publication list ---- */
+.pub-list p {
+  margin-bottom: 1rem;
+  line-height: 1.55;
+}
+
+.pub-list a {
+  font-weight: 500;
+}
+
+.scholar-link {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  padding: 0.3rem 0;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.scholar-link .ext-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: $link-color;
+  text-decoration: none;
+}
+
+.scholar-link .ext-icon:hover { text-decoration: underline; }
+
+/* ---- Classification note (small footer-style) ---- */
+.classification-note {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid $clr-border;
+  font-size: 0.85rem;
+  color: $clr-secondary;
+  line-height: 1.5;
+}
+
+/* ---- CV-style publication list (two columns, hanging indent) ---- */
+.pub-cv {
+  margin: 0.4rem 0 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid $clr-border;
+}
+
+.pub-cv:last-of-type {
+  border-bottom: none;
+}
+
+.pub-row {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  column-gap: 0.6rem;
+  margin-bottom: 1.1rem;
+  align-items: start;
+}
+
+.pub-tag {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: $clr-text;
+  line-height: 1.4;
+  padding-top: 0.05rem;
+}
+
+.pub-tag p { margin: 0; }
+
+.pub-body {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: $clr-text;
+}
+
+.pub-body p { margin: 0; }
+
+.pub-body a { font-weight: 500; }
+
+.pub-body .thesis-topic {
+  color: #1f1f1f;
+  font-weight: 600;
+}
+
+@media (max-width: 540px) {
+  .pub-row { grid-template-columns: 28px 1fr; column-gap: 0.4rem; }
+  .pub-tag, .pub-body { font-size: 0.9rem; }
+}
+
+/* ---- Modern publication cards ---- */
+.pub-list-modern {
+  margin: 0.5rem 0 1.5rem;
+}
+
+.pub-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  display: inline-block;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: $link-color;
+  margin-bottom: 0.3rem;
+  line-height: 1.35;
+}
+
+.pub-title:hover { text-decoration: underline; }
+
+.pub-authors {
+  display: block;
+  color: $clr-text;
+  font-size: 0.95rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.45;
+}
+
+.pub-authors strong { font-weight: 700; color: $clr-text; }
+
+.pub-venue {
+  display: inline;
+  color: $clr-secondary;
+  font-size: 0.93rem;
+  margin-right: 0.5rem;
+}
+
+.pub-type {
+  display: inline-block;
+  padding: 0.08rem 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+}
+
+.pub-type.journal {
+  background: #eef4ff;
+  color: #1d3a8a;
+  border: 1px solid #cfd9ea;
+}
+
+.pub-type.preprint {
+  background: #fef8e7;
+  color: #8a5a00;
+  border: 1px solid #f0e1b6;
+}
+
+.pub-type.conference {
+  background: #f0ece6;
+  color: #6e4b1a;
+  border: 1px solid #e0d8c6;
+}
+
+.pub-type.book {
+  background: #ecf3ec;
+  color: #2e5f2e;
+  border: 1px solid #c8dcc8;
+}
+
+.pub-type.report {
+  background: #f3eef3;
+  color: #5c2c5c;
+  border: 1px solid #ddc8dd;
+}
+
+.pub-type.outreach {
+  background: #fdeeee;
+  color: #8a2222;
+  border: 1px solid #efc8c8;
+}
+
+.pub-type.thesis {
+  background: #eef3f6;
+  color: #1f5066;
+  border: 1px solid #cfe0e8;
+}
+
+.pub-type.software {
+  background: #eef0f4;
+  color: #2a2a5e;
+  border: 1px solid #d0d4dc;
+}
+
+/* ---- Home page cards ---- */
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.home-card {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 1.25rem;
+  transition: box-shadow 120ms ease;
+}
+
+.home-card:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.home-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+  color: $headings-color;
+}
+
+.home-card p {
+  font-size: 1rem;
+  color: $clr-secondary;
+  margin: 0 0 0.6rem;
+}
+
+.home-card a.card-link {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $clr-navy;
+  text-decoration: none;
+}
+
+.home-card a.card-link:hover { text-decoration: underline; }
+
+/* ---- Blog post listing ---- */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.post-list li {
+  border-bottom: 1px solid #eee;
+  padding: 0.85rem 0;
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.post-list .date {
+  color: $clr-secondary;
+  font-size: 0.9rem;
+  min-width: 6rem;
+  white-space: nowrap;
+}
+
+.post-list a {
+  font-weight: 500;
+}
+
+/* ---- Footer tweaks ---- */
+.nav-footer {
+  font-size: 1rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.nav-footer-center {
+  text-align: center;
+  flex: 1 1 100%;
+}
+
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-right { display: none; }
+
+.footer-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin: 0 0.55rem;
+  color: $clr-text;
+  text-decoration: none;
+  transition: color 100ms ease;
+}
+
+.footer-icon:hover { color: $clr-navy; text-decoration: none; }
+
+.footer-tagline {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: $clr-secondary;
+}
+
+.footer-tagline a { color: $clr-secondary; }
+.footer-tagline a:hover { color: $clr-navy; }
+
+/* ---- Responsive ---- */
+@media (max-width: 768px) {
+  .page-header h1 { font-size: 1.35rem; }
+  .page-header .meta { flex-direction: column; gap: 0.25rem; }
+  .section-nav { overflow-x: auto; flex-wrap: nowrap; }
+  .actions { flex-direction: column; }
+  .home-grid { grid-template-columns: 1fr; }
+  .profile-pic { max-width: 35%; }
+}

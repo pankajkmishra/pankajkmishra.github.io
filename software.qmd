@@ -1,0 +1,14 @@
+---
+pagetitle: "Software"
+toc: false
+page-layout: article
+---
+
+::: {.content-body}
+
+Lead developer & maintainer of the [Julia Geophysics](https://github.com/JuliaGeophysics) organisation.
+
+- [**MTGeophysics.jl**](https://github.com/JuliaGeophysics/MTGeophysics.jl) — A software repository for magnetotelluric geophysics research and applications.
+- [**NodeLab**](https://github.com/pankajkmishra/NodeLab) — Node-generation and adaptive refinement for testing and implementing various meshfree methods (including physics-informed machine learning) for solving PDEs in arbitrary domains.
+
+:::

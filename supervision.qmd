@@ -1,0 +1,81 @@
+---
+pagetitle: "Supervision"
+toc: false
+page-layout: article
+---
+
+::: {.content-body}
+
+## PhD students
+
+::: {.supervision-list}
+
+::: {.supervision-item}
+::: {.supervision-name}
+[**Sanni Laaksonen**](https://www.linkedin.com/in/sanni-laaksonen-4a679419b/)
+
+(Supervisor)
+:::
+::: {.supervision-details}
+[Ongoing]{.meta-year .ongoing} [Machine learning methods for multiphysics and multiscale data integration in mineral exploration]{.thesis-topic}<br>
+Department of Geoscience, University of Helsinki
+:::
+:::
+
+::: {.supervision-item}
+::: {.supervision-name}
+[**Naimatullah**](#)
+
+(Co-Supervisor)
+:::
+::: {.supervision-details}
+[Ongoing]{.meta-year .ongoing} [Research topic — TBD]{.thesis-topic}<br>
+Department of Earth Sciences, Indian Institute of Technology Bombay
+:::
+:::
+
+::: {.supervision-item}
+::: {.supervision-name}
+[**Fareeda B. S.**](#)
+
+(Co-Supervisor)
+:::
+::: {.supervision-details}
+[Ongoing]{.meta-year .ongoing} [Physics Informed Machine Learning for Geophysical Inversion Problems]{.thesis-topic}<br>
+Department of Geophysics, Indian Institute of Petroleum and Energy
+:::
+:::
+
+:::
+
+## Masters students
+
+::: {.supervision-list}
+
+::: {.supervision-item}
+::: {.supervision-name}
+[**Eetu Hyppiö**](#)
+
+(Co-Supervisor)
+:::
+::: {.supervision-details}
+[Ongoing]{.meta-year .ongoing} [Deep Operator Networks for 3D Gravity Forward Modeling]{.thesis-topic}<br>
+Department of Computer Science, University of Oulu
+:::
+:::
+
+::: {.supervision-item}
+::: {.supervision-name}
+[**Iina Karomaki**](#)
+
+(Co-Supervisor)
+:::
+::: {.supervision-details}
+[Upcoming]{.meta-year .upcoming} [Research topic — TBD]{.thesis-topic}<br>
+Department of Geoscience, University of Helsinki
+:::
+:::
+
+:::
+
+:::

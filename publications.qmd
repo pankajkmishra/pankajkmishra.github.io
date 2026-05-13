@@ -1,0 +1,362 @@
+---
+pagetitle: "Publications"
+toc: true
+toc-depth: 2
+page-layout: article
+---
+
+::: {.content-body}
+
+::: {.scholar-link}
+<a href="https://orcid.org/0000-0003-4907-4724" aria-label="ORCID" class="ext-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#A6CE39" width="1.15em" height="1.15em" style="vertical-align:-.18em"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM4.94 4.31a.85.85 0 1 1 0 1.7.85.85 0 0 1 0-1.7zM4.21 6.85h1.45v5.65H4.21V6.85zm2.69 0h2.78c2.65 0 3.81 1.89 3.81 2.83 0 1.02-.79 2.82-3.85 2.82H6.9V6.85zm1.45 1.32v3.02h1.26c1.79 0 2.2-1.36 2.2-1.51 0-.25-.15-1.51-2.27-1.51H8.35z"/></svg> 0000-0003-4907-4724</a> &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=eJGntuoAAAAJ&hl=en" aria-label="Google Scholar" class="ext-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#4285F4" width="1.15em" height="1.15em" style="vertical-align:-.18em"><path d="M8 0L0 5.4l3.07 2.07v1.8c1.07 1.86 2.86 3.13 4.93 3.13s3.86-1.27 4.93-3.13v-1.8L16 5.4 8 0zM3.07 9.27v1.8L8 14.13l4.93-3.07v-1.8L8 12.4 3.07 9.27z"/></svg> Google Scholar</a>
+:::
+
+## Book
+
+::: {.pub-cv}
+
+::: {.pub-row}
+::: {.pub-tag}
+C1
+:::
+::: {.pub-body}
+[Geoscientific Machine Learning](https://geo-sciml.com/) | **Pankaj K Mishra** |
+Living book, [geo-sciml.com](https://geo-sciml.com/), [doi:10.5281/zenodo.19540920](https://doi.org/10.5281/zenodo.19540920), 2026.
+:::
+:::
+
+:::
+
+## Journal articles & preprints
+
+::: {.pub-cv}
+
+::: {.pub-row}
+::: {.pub-tag}
+B1
+:::
+::: {.pub-body}
+[Backend-agnostic Julia framework for 3D modeling and inversion of gravity data](https://arxiv.org/abs/2602.03857) | Nimatullah, **Pankaj K Mishra**, Jochen Kamm and Anand Singh | 
+arXiv preprint [arXiv:2602.03857](https://arxiv.org/abs/2602.03857), 2026.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+B1
+:::
+::: {.pub-body}
+[Three-dimensional inversion of gravity data using implicit neural representations](https://arxiv.org/abs/2510.17876) | **Pankaj K Mishra**, Sanni Laaksonen, Jochen Kamm and Anand Singh | 
+arXiv preprint [arXiv:2510.17876](https://arxiv.org/abs/2510.17876), 2025.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[Lithosphere in digital twins of the Earth](https://doi.org/10.1093/gji/ggaf199) | **Pankaj K Mishra** | 
+[Geophysical Journal International]{.thesis-topic} 242(2), ggaf199, 2025.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[Stochastic joint-inversion of seismic and controlled-source electromagnetic data](https://essopenarchive.org/doi/pdf/10.22541/au.172591515.59105520/v2) | **Pankaj K Mishra**, Adrien Arnulf, Mrinal K Sen, Zeyu Zhao, and Piyoosh Jaysaval | 
+[Geophysical Prospecting]{.thesis-topic} 73(6), e70043, 2025.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[Enhancing RBF-FD efficiency for highly non-uniform nodes distributions via adaptivity](https://doi.org/10.48550/arXiv.2004.06319) | S Li, Leevan Ling, Xin Liu, **Pankaj K Mishra**, Mrinal K Sen, and J Zhang | 
+[Numerical Mathematics: Theory, Methods and Applications]{.thesis-topic} 17, 310–330, 2024.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[RBF-FD analysis of 2D time-domain acoustic wave propagation in heterogeneous media](https://doi.org/10.1016/j.cageo.2021.104796) | Jure M Berljavac, **Pankaj K Mishra**, Jure Slak, and Gregor Kosec | 
+[Computers & Geosciences]{.thesis-topic} 153, 104796, 2021.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[NodeLab: A MATLAB package for meshfree node-generation and adaptive refinement](https://doi.org/10.21105/joss.01173) | **Pankaj K Mishra** | 
+[Journal of Open-Source Software]{.thesis-topic} 4(40), 1173, 2019.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[2D joint inversion of DC resistivity and gravity data — a case study of uranium-bearing target rock](https://doi.org/10.1111/1365-2478.12763) | Anand Singh, **Pankaj K Mishra**, and S P Sharma | 
+[Geophysical Prospecting]{.thesis-topic} 67(3), 696–708, 2019.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[A stabilized kernel-based finite-difference method with hybrid kernels](https://doi.org/10.1016/j.camwa.2018.12.027) | **Pankaj K Mishra**, Gregory E Fasshauer, Mrinal K Sen, and Leevan Ling | 
+[Computers & Mathematics with Applications]{.thesis-topic} 77(9), 2354–2368, 2019.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[Hybrid Gaussian–cubic radial basis functions for scattered data interpolation](https://doi.org/10.1007/s10596-018-9747-3) | **Pankaj K Mishra**, Sankar K Nath, Mrinal K Sen, and Gregory E Fasshauer | 
+[Computational Geosciences]{.thesis-topic} 22(5), 1203–1218, 2018.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[An improved radial basis-pseudospectral scheme with hybrid Gaussian-cubic kernels](https://doi.org/10.1016/j.enganabound.2017.03.009) | **Pankaj K Mishra**, Sankar K Nath, Gregor Kosec, and Mrinal K Sen | 
+[Engineering Analysis With Boundary Elements]{.thesis-topic} 80, 165–171, 2017.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A1
+:::
+::: {.pub-body}
+[On the convergence of iterative methods and pseudoinverse approach in global meshless collocation](https://doi.org/10.1007/s40819-016-0272-6) | **Pankaj K Mishra** and Sankar K Nath | 
+[International Journal of Applied and Computational Mathematics]{.thesis-topic} 3(4), 3987–4000, 2015.
+:::
+:::
+
+:::
+
+## Software, infrastructure & open-source
+
+::: {.pub-cv}
+
+::: {.pub-row}
+::: {.pub-tag}
+I2
+:::
+::: {.pub-body}
+[MTGeophysics.jl: Julia software repository for magnetotelluric research and applications](https://github.com/JuliaGeophysics/MTGeophysics.jl) | **Pankaj K Mishra** | 
+JuliaGeophysics organisation, archived on Zenodo, [github.com/JuliaGeophysics/MTGeophysics.jl](https://github.com/JuliaGeophysics/MTGeophysics.jl), 2026.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+I2
+:::
+::: {.pub-body}
+[TerraScope.jl: Julia tool for joint visualisation of diverse geoscientific data](https://github.com/JuliaGeophysics/TerraScope.jl) | **Pankaj K Mishra** | 
+JuliaGeophysics organisation, archived on Zenodo, [github.com/JuliaGeophysics/TerraScope.jl](https://github.com/JuliaGeophysics/TerraScope.jl), 2026.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+I2
+:::
+::: {.pub-body}
+[NodeLab: MATLAB package for meshfree node-generation and adaptive refinement](https://github.com/pankajkmishra/NodeLab) | **Pankaj K Mishra** | 
+GitHub, [github.com/pankajkmishra/NodeLab](https://github.com/pankajkmishra/NodeLab), 2019.
+:::
+:::
+
+:::
+
+## Conference proceedings & other publications
+
+::: {.pub-cv}
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Building uncertainty-aware subsurface models with 3D magnetotelluric inversion](https://doi.org/10.5194/egusphere-egu26-4367) | **Pankaj K Mishra**, Jochen Kamm, Cedric Patzer, Uula Autio, and Mrinal K Sen | 
+[EGU General Assembly 2026]{.thesis-topic}, abstract EGU26-4367, 2026.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Physics-guided neural network for magnetotelluric inversion: investigating activation, loss, uncertainty, and application to highly conductive layer](https://doi.org/10.22541/essoar.176789324.49741097/v1) | Lin Xiao, **Pankaj K Mishra**, Uula Autio, Hu Qiao, and Jochen Kamm | 
+[AGU Fall Meeting 2025]{.thesis-topic}, abstract 1918944, session GP33B, New Orleans, USA, 2025.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+E1
+:::
+::: {.pub-body}
+[Earth twin needs geoscience](https://doi.org/10.1144/geosci2025-030) | **Pankaj K Mishra** | 
+[Geoscientist]{.thesis-topic} 35(4), 12, The Geological Society of London, 2025.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+D1
+:::
+::: {.pub-body}
+[Recent developments in electromagnetic deep exploration methodologies at the Geological Survey of Finland]{.thesis-topic} | Uula Autio, Cedric Patzer, Jochen Kamm, Lin Xiao, and **Pankaj K Mishra** | 
+[GTK Open File Work Report]{.thesis-topic}, 1–25, Geological Survey of Finland, 2025.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Image of the crust and upper mantle tectonic structure and associated mineral systems of the central Norwegian Caledonides from 3D inverse geoelectrical models]{.thesis-topic} | Svetlana Kovacikova, Graham Hill, S Gradmann, R Klanica, G Karcioglu, Jan Vozár, Jochen Kamm, **Pankaj K Mishra**, Maxim Yu Smirnov, and O Rydman | 
+[EGU General Assembly 2024]{.thesis-topic}, abstract EGU24-8386, 2024.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[A 3D resistivity model of the Svecofennian collision zone in the Bothnian region]{.thesis-topic} | A Harjulehto, Jochen Kamm, **Pankaj K Mishra**, and J Salminen | 
+[Lithosphere Symposium 2024]{.thesis-topic}, article 33, GeoScienceWorld, 2024.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Sub-continental lithospheric mantle and crustal structure of Fennoscandian shield mineral systems]{.thesis-topic} | Graham Hill, Maxim Yu Smirnov, Jochen Kamm, Jan Vozár, Svetlana Kovacikova, and **Pankaj K Mishra** | 
+[XXVIII General Assembly of the International Union of Geodesy and Geophysics (IUGG)]{.thesis-topic}, Berlin, 2023.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[3D magnetotelluric study of the crustal architecture and mineral system in Pyhäsalmi]{.thesis-topic} | Jochen Kamm, **Pankaj K Mishra**, Cedric Patzer, Uula Autio, K Vaittinen, Maxim Yu Smirnov, K Muhumuza, Graham Hill, and D-REX WG | 
+[AGU Fall Meeting Abstracts 2022]{.thesis-topic}, GP33A-01, 2022.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Large-scale mineral system study in Finland using 3D magnetotellurics]{.thesis-topic} | **Pankaj K Mishra**, Jochen Kamm, Cedric Patzer, Uula Autio, K Vaittinen, K Muhumuza, Maxim Yu Smirnov, Graham Hill, and D-REX WG | 
+[25th Electromagnetic Induction Workshop]{.thesis-topic}, Çeşme, Turkey, 2022.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Regional to deposit scale exploration in Fennoscandia]{.thesis-topic} | Maxim Yu Smirnov, Graham Hill, Jochen Kamm, Jan Vozár, Jirigalatu, **Pankaj K Mishra**, K Muhumuza, and DREX WG | 
+[25th Electromagnetic Induction Workshop]{.thesis-topic}, Çeşme, Turkey, 2022.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Probabilistic joint-inversion of marine CSEM and seismic traveltime data using VFSA and generalized fuzzy clustering](https://doi.org/10.1190/segam2020-3428007.1) | **Pankaj K Mishra**, Adrien Arnulf, Mrinal K Sen, B Denel, Y Sun, and Paul Williamson | 
+[SEG Technical Program Expanded Abstracts 2020]{.thesis-topic}, 545–549, 2020.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Two-step velocity inversion using trans-dimensional tomography and elastic FWI](https://doi.org/10.1190/segam2020-3407268.1) | Reetam Biswas, Adrien Arnulf, Mrinal K Sen, Debanjan Datta, Zeyu Zhao, **Pankaj K Mishra**, and Piyoosh Jaysaval | 
+[SEG Technical Program Expanded Abstracts 2020]{.thesis-topic}, 3628–3633, 2020.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Meshfree seismic modeling using radial basis finite-difference with adaptive stencil size](https://doi.org/10.1190/segam2020-3428393.1) | Xin Liu, **Pankaj K Mishra**, Mrinal K Sen, and Leevan Ling | 
+[SEG Technical Program Expanded Abstracts 2020]{.thesis-topic}, 2673–2677, 2020.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+G
+:::
+::: {.pub-body}
+[Kernel-based numerical methods for spatial interpolation and meshless modeling of wave propagation problems]{.thesis-topic} | **Pankaj K Mishra** | 
+Doctoral dissertation (monograph), Indian Institute of Technology Kharagpur, India, 2018.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+A4
+:::
+::: {.pub-body}
+[Frequency-domain meshless solver for acoustic wave equation using a stable radial basis-finite difference (RBF-FD) algorithm with hybrid kernels](https://doi.org/10.1190/segam2017-17494511.1) | **Pankaj K Mishra**, Sankar K Nath, Gregory E Fasshauer, and Mrinal K Sen | 
+[SEG Technical Program Expanded Abstracts 2017]{.thesis-topic}, 4022–4026, 2017.
+:::
+:::
+
+::: {.pub-row}
+::: {.pub-tag}
+G
+:::
+::: {.pub-body}
+[Multiple attenuation in deep-marine seismic data]{.thesis-topic} | **Pankaj K Mishra** |
+Master's thesis, Indian Institute of Technology Kharagpur, India, 2012.
+:::
+:::
+
+:::
+
+::: {.classification-note}
+Classification follows the Ministry of Education, Science and Culture publication categories (A1 refereed journal · A4 conference proceedings · B1 preprints · C1 book · D1 professional · E1 outreach · G thesis · I2 software). My name is shown in **bold**.
+:::
+
+:::

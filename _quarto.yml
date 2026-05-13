@@ -1,0 +1,85 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - teaching.qmd
+    - supervision.qmd
+    - software.qmd
+    - blog.qmd
+    - posts/*.qmd
+
+website:
+  title: "Pankaj K Mishra"
+  description: "Personal website of Pankaj K Mishra — Senior Scientist, Geological Survey of Finland (GTK)"
+  site-url: "https://pankajkmishra.github.io"
+  favicon: images/dp.png
+
+  navbar:
+    title: "Pankaj K Mishra"
+    background: light
+    foreground: "#2d2d2d"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Supervision"
+        href: supervision.qmd
+      - text: "Software"
+        href: software.qmd
+      - text: "Blog"
+        href: blog.qmd
+    right:
+      - icon: github
+        href: https://github.com/pankajkmishra
+        aria-label: GitHub
+      - icon: twitter
+        href: https://twitter.com/pankajkmishra_
+        aria-label: Twitter
+      - icon: linkedin
+        href: https://www.linkedin.com/in/pankajkmishra01/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:pankaj.mishra@gtk.fi
+        aria-label: Email
+
+  back-to-top-navigation: true
+  page-footer:
+    center: |
+      <a href="https://github.com/pankajkmishra" aria-label="GitHub" class="footer-icon"><i class="bi bi-github"></i></a>
+      <a href="https://twitter.com/pankajkmishra_" aria-label="Twitter" class="footer-icon"><i class="bi bi-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/pankajkmishra01/" aria-label="LinkedIn" class="footer-icon"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:pankaj.mishra@gtk.fi" aria-label="Email" class="footer-icon"><i class="bi bi-envelope"></i></a>
+      <a href="https://orcid.org/0000-0003-4907-4724" aria-label="ORCID" class="footer-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="1em" height="1em" style="vertical-align:-.125em"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zM4.94 4.31a.85.85 0 1 1 0 1.7.85.85 0 0 1 0-1.7zM4.21 6.85h1.45v5.65H4.21V6.85zm2.69 0h2.78c2.65 0 3.81 1.89 3.81 2.83 0 1.02-.79 2.82-3.85 2.82H6.9V6.85zm1.45 1.32v3.02h1.26c1.79 0 2.2-1.36 2.2-1.51 0-.25-.15-1.51-2.27-1.51H8.35z"/></svg></a>
+      <div class="footer-tagline">Geophysical Solutions, <a href="https://www.gtk.fi/">Geological Survey of Finland (GTK)</a></div>
+
+format:
+  html:
+    grid:
+      body-width: 1050px
+      margin-width: 180px
+      gutter-width: 1.2rem
+    theme:
+      light:
+        - flatly
+        - styles.scss
+    fontsize: 12.5pt
+    linestretch: 1.1
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    include-after-body:
+      text: |
+        <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          document.title = document.title
+            .replace(/\s*[–—-]\s*Pankaj K Mishra\s*$/, '');
+        });
+        </script>

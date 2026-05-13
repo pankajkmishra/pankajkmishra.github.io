@@ -1,0 +1,57 @@
+---
+pagetitle: "Teaching"
+toc: false
+page-layout: article
+---
+
+::: {.content-body}
+
+## University courses
+
+::: {.supervision-list .teaching-list}
+
+::: {.supervision-item}
+::: {.supervision-name}
+[**Inversion of Geophysical Data**](#)
+
+(Co-instructor)
+:::
+::: {.supervision-details}
+[Ongoing]{.meta-year .ongoing} [2024, 2026]{.thesis-topic}<br>
+University of Helsinki
+:::
+:::
+
+::: {.supervision-item}
+::: {.supervision-name}
+[**Seismic Methods of Prospecting (Lab)**](#)
+
+(TA)
+:::
+::: {.supervision-details}
+[Completed]{.meta-year .completed} [2014 – 2016]{.thesis-topic}<br>
+Indian Institute of Technology Kharagpur, India
+:::
+:::
+
+:::
+
+## Workshops
+
+::: {.supervision-list .teaching-list}
+
+::: {.supervision-item}
+::: {.supervision-name}
+[**MATLAB for Geoscience**](#)
+
+(Instructor)
+:::
+::: {.supervision-details}
+[Completed]{.meta-year .completed} [2014, 2015]{.thesis-topic}<br>
+Indian Institute of Technology Kharagpur, India
+:::
+:::
+
+:::
+
+:::
