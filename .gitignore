@@ -3,3 +3,5 @@
 _site/
 *.html.tmp
 .DS_Store
+
+**/*.quarto_ipynb

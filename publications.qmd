@@ -43,11 +43,11 @@ arXiv preprint [arXiv:2602.03857](https://arxiv.org/abs/2602.03857), 2026.
 
 ::: {.pub-row}
 ::: {.pub-tag}
-B1
+A1
 :::
 ::: {.pub-body}
-[Three-dimensional inversion of gravity data using implicit neural representations](https://arxiv.org/abs/2510.17876) | **Pankaj K Mishra**, Sanni Laaksonen, Jochen Kamm and Anand Singh | 
-arXiv preprint [arXiv:2510.17876](https://arxiv.org/abs/2510.17876), 2025.
+[Three-dimensional inversion of gravity data using implicit neural representations and scientific machine learning](https://doi.org/10.1038/s41598-026-55960-5) | **Pankaj K Mishra**, Sanni Laaksonen, Jochen Kamm and Anand Singh |
+[Scientific Reports]{.thesis-topic} 16(1), 25630, 2026.
 :::
 :::
 
