@@ -208,7 +208,7 @@ A4
 A4
 :::
 ::: {.pub-body}
-[Physics-guided neural network for magnetotelluric inversion: investigating activation, loss, uncertainty, and application to highly conductive layer](https://doi.org/10.22541/essoar.176789324.49741097/v1) | Lin Xiao, **Pankaj K Mishra**, Uula Autio, Hu Qiao, and Jochen Kamm | 
+[Physics-guided neural network for magnetotelluric inversion: investigating activation, loss, uncertainty, and application to highly conductive layer](https://doi.org/10.22541/essoar.176789324.49741097/v1) | Longying Xiao, **Pankaj K Mishra**, Uula Autio, Hanli Qiao, and Jochen Kamm | 
 [AGU Fall Meeting 2025]{.thesis-topic}, abstract 1918944, session GP33B, New Orleans, USA, 2025.
 :::
 :::
@@ -228,7 +228,7 @@ E1
 D1
 :::
 ::: {.pub-body}
-[Recent developments in electromagnetic deep exploration methodologies at the Geological Survey of Finland]{.thesis-topic} | Uula Autio, Cedric Patzer, Jochen Kamm, Lin Xiao, and **Pankaj K Mishra** | 
+[Recent developments in electromagnetic deep exploration methodologies at the Geological Survey of Finland]{.thesis-topic} | Uula Autio, Cedric Patzer, Jochen Kamm, Longying Xiao, and **Pankaj K Mishra** | 
 [GTK Open File Work Report]{.thesis-topic}, 1–25, Geological Survey of Finland, 2025.
 :::
 :::
